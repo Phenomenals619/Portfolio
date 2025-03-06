@@ -5,9 +5,9 @@ const About = () => {
     <>
       <div
         id="about"
-        className='p-20 pt-5 min-h-[calc(100vh-69px)] bg-[url("carlo.jpg")] bg-cover flex justify-end'
+        className='p-20 pt-5 min-h-[calc(100vh-71px)] bg-[url("carlo.jpg")] bg-cover flex justify-end '
       >
-        <div className="pt-15 bg-blue-200/[0.5]  inline-block rounded-sm shadow-lg text-black min-w-md max-w-md">
+        <div className="mt-15 bg-blue-200/[0.5]  inline-block rounded-sm shadow-lg text-black min-w-md max-w-md">
           <div className="flex items-center justify-center p-10 flex-col">
             <h1 className="text-4xl font-bold text-blue-950">ABOUT US </h1>
             <p className="text-lg mt-2 italic indent-8">
