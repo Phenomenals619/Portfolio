@@ -5,7 +5,7 @@ const About = () => {
     <>
       <div
         id="about"
-        className='p-20 pt-5 min-h-[calc(100vh-71px)] bg-cover flex justify-end' style={{ backgroundImage: `url('/gojo.jpg')` }}
+        className='p-20 pt-5 min-h-[calc(100vh-71px)] bg-cover flex justify-end' style={{ backgroundImage: `url('gojo.jpg')` }}
 
       >
         <div className="mt-15 bg-blue-200/[0.5]  inline-block rounded-sm shadow-lg text-black min-w-md max-w-md">
