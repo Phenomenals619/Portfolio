@@ -6,7 +6,8 @@ const About = () => {
     <>
       <div
         id="about"
-        className='p-20 pt-5 min-h-[calc(100vh-71px)] bg-cover flex justify-end bg-cover bg-[url(${gojo})]'
+        className='p-20 pt-5 min-h-[calc(100vh-71px)] bg-cover flex justify-end bg-cover' style={{ backgroundImage: `url(${gojo})` }}
+
 
       >
         <div className="mt-15 bg-blue-200/[0.5]  inline-block rounded-sm shadow-lg text-black min-w-md max-w-md">
