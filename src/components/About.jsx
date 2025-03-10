@@ -1,11 +1,12 @@
 import React from "react";
+import gojo from '../public/gojo.jpg';
 
 const About = () => {
   return (
     <>
       <div
         id="about"
-        className='p-20 pt-5 min-h-[calc(100vh-71px)] bg-cover flex justify-end bg-cover bg-[url('/gojo.jpg')]'
+        className='p-20 pt-5 min-h-[calc(100vh-71px)] bg-cover flex justify-end bg-cover bg-[url(${gojo})]'
 
       >
         <div className="mt-15 bg-blue-200/[0.5]  inline-block rounded-sm shadow-lg text-black min-w-md max-w-md">
